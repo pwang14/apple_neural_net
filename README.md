@@ -2,8 +2,9 @@
 
 This neural network recognizes if an input image contains an apple or not. 
 
-The code for the neural network comes from https://github.com/mnielsen/neural-networks-and-deep-learning. I have modified the code at certain points.
+The code for the neural network comes from https://github.com/mnielsen/neural-networks-and-deep-learning.
 It accompanies Michael Nielson's online book 'Neural Networks and Deep Learning', in which the fundamentals of neural networks are explained.
+I have modified the code at certain points.
 
 The network consists of 9408 input neurons (representing a 56 x 56 px input image, where each pixel contains three RGB values), two hidden layers with 500 and 25 neurons, respectively, and 1 output neuron (representing the probability with which the network thinks the input image contains and apple). 
 
