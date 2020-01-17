@@ -24,9 +24,9 @@ I created the file data_collect.py to collect the images in the apple_data direc
 
 The network trained on a dataset of 1775 pictures (all of which were taken by me). I took 936 pictures of apples, and 839 picutres of non-apples.
 I first trained the network for 50 epochs, with a learning rate of 0.5. When its accuracy with the training data surpassed a certain threshold (95% at first), I stored its specific weights and biases in parameters.json.
-After that, I would initialize the network with the values in parameters.json before training it more (I also decreased the learning rate to 0.1). After several training sessions, the network now has a 97% accuracy with the training data.
+After that, I would initialize the network with the values in parameters.json before training it more (I also decreased the learning rate to 0.1). After several training sessions, the network's accuracy with the training data is now 97%.
 
-I collected a small sample of new test images, and ran them through the network. It had an 100% accuracy.
+I collected a small sample of new test images, and ran them through the network. Its accuracy was 100%.
 
 ![Image of test results](Test%20results.png)
 
