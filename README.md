@@ -1,4 +1,4 @@
-#Apple-recognition neural network
+# Apple-recognition neural network
 
 This neural network recognizes if an input image contains an apple or not. 
 
