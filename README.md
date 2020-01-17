@@ -27,7 +27,7 @@ After that, I would initialize the network with the values in parameters.json be
 
 I collected a small sample of new test images, and ran them through the network. It had an 100% accuracy.
 
-![Image of test results](Test results.png)
+![Image of test results](/Test results.png)
 
 If you want to run the network on the images in the test_data directory, just run display.py.
 However, before running the program you must first unzip parameters.json and put it in the neuralnet directory.
